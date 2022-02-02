@@ -1,0 +1,7 @@
+  <interface name="org.sunspec.Model.302">
+    <property type="q" name="GHI" access="read"/>
+    <property type="q" name="POAI" access="read"/>
+    <property type="q" name="DFI" access="read"/>
+    <property type="q" name="DNI" access="read"/>
+    <property type="q" name="OTI" access="read"/>
+  </interface>

@@ -1,0 +1,6 @@
+  <interface name="org.sunspec.Model.306">
+    <property type="q" name="GHI" access="read"/>
+    <property type="q" name="A" access="read"/>
+    <property type="q" name="V" access="read"/>
+    <property type="q" name="Tmp" access="read"/>
+  </interface>

@@ -1,0 +1,37 @@
+  <interface name="org.sunspec.Model.64001">
+    <property type="q" name="Cmd" access="readwrite"/>
+    <property type="q" name="HWRev" access="read"/>
+    <property type="q" name="RSFWRev" access="read"/>
+    <property type="q" name="OSFWRev" access="read"/>
+    <property type="s" name="ProdRev" access="read"/>
+    <property type="q" name="Boots" access="read"/>
+    <property type="q" name="Switch" access="read"/>
+    <property type="q" name="Sensors" access="read"/>
+    <property type="q" name="Talking" access="read"/>
+    <property type="q" name="Status" access="read"/>
+    <property type="q" name="Config" access="read"/>
+    <property type="q" name="LEDblink" access="read"/>
+    <property type="q" name="LEDon" access="read"/>
+    <property type="q" name="Reserved" access="read"/>
+    <property type="s" name="Loc" access="read"/>
+    <property type="q" name="S1ID" access="read"/>
+    <property type="q" name="S1Addr" access="read"/>
+    <property type="q" name="S1OSVer" access="read"/>
+    <property type="s" name="S1Ver" access="read"/>
+    <property type="s" name="S1Serial" access="read"/>
+    <property type="q" name="S2ID" access="read"/>
+    <property type="q" name="S2Addr" access="read"/>
+    <property type="q" name="S2OSVer" access="read"/>
+    <property type="s" name="S2Ver" access="read"/>
+    <property type="s" name="S2Serial" access="read"/>
+    <property type="q" name="S3ID" access="read"/>
+    <property type="q" name="S3Addr" access="read"/>
+    <property type="q" name="S3OSVer" access="read"/>
+    <property type="s" name="S3Ver" access="read"/>
+    <property type="s" name="S3Serial" access="read"/>
+    <property type="q" name="S4ID" access="read"/>
+    <property type="q" name="S4Addr" access="read"/>
+    <property type="q" name="S4OSVer" access="read"/>
+    <property type="s" name="S4Ver" access="read"/>
+    <property type="s" name="S4Serial" access="read"/>
+  </interface>

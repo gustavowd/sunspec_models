@@ -1,0 +1,10 @@
+  <interface name="org.sunspec.Model.14">
+    <property type="s" name="Nam" access="readwrite"/>
+    <property type="q" name="Cap" access="readwrite"/>
+    <property type="q" name="Cfg" access="readwrite"/>
+    <property type="q" name="Typ" access="readwrite"/>
+    <property type="s" name="Addr" access="readwrite"/>
+    <property type="q" name="Port" access="readwrite"/>
+    <property type="s" name="User" access="readwrite"/>
+    <property type="s" name="Pw" access="readwrite"/>
+  </interface>

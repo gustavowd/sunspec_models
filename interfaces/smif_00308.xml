@@ -1,0 +1,6 @@
+  <interface name="org.sunspec.Model.308">
+    <property type="q" name="GHI" access="read"/>
+    <property type="n" name="TmpBOM" access="read"/>
+    <property type="n" name="TmpAmb" access="read"/>
+    <property type="q" name="WndSpd" access="read"/>
+  </interface>

@@ -1,0 +1,10 @@
+  <interface name="org.sunspec.Model.17">
+    <property type="s" name="Nam" access="readwrite"/>
+    <property type="u" name="Rte" access="readwrite"/>
+    <property type="q" name="Bits" access="readwrite"/>
+    <property type="q" name="Pty" access="readwrite"/>
+    <property type="q" name="Dup" access="readwrite"/>
+    <property type="q" name="Flw" access="readwrite"/>
+    <property type="q" name="Typ" access="read"/>
+    <property type="q" name="Pcol" access="read"/>
+  </interface>

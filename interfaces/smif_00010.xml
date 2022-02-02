@@ -1,0 +1,5 @@
+  <interface name="org.sunspec.Model.10">
+    <property type="q" name="St" access="read"/>
+    <property type="q" name="Ctl" access="readwrite"/>
+    <property type="q" name="Typ" access="read"/>
+  </interface>

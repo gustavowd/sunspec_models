@@ -1,0 +1,34 @@
+  <interface name="org.sunspec.Model.220">
+    <property type="n" name="A" access="read"/>
+    <property type="n" name="A_SF" access="read"/>
+    <property type="n" name="PhV" access="read"/>
+    <property type="n" name="V_SF" access="read"/>
+    <property type="n" name="Hz" access="read"/>
+    <property type="n" name="Hz_SF" access="read"/>
+    <property type="n" name="W" access="read"/>
+    <property type="n" name="W_SF" access="read"/>
+    <property type="n" name="VA" access="read"/>
+    <property type="n" name="VA_SF" access="read"/>
+    <property type="n" name="VAR" access="read"/>
+    <property type="n" name="VAR_SF" access="read"/>
+    <property type="n" name="PF" access="read"/>
+    <property type="n" name="PF_SF" access="read"/>
+    <property type="u" name="TotWhExp" access="read"/>
+    <property type="u" name="TotWhImp" access="read"/>
+    <property type="n" name="TotWh_SF" access="read"/>
+    <property type="u" name="TotVAhExp" access="read"/>
+    <property type="u" name="TotVAhImp" access="read"/>
+    <property type="n" name="TotVAh_SF" access="read"/>
+    <property type="u" name="TotVArhImpQ1" access="read"/>
+    <property type="u" name="TotVArhImpQ2" access="read"/>
+    <property type="u" name="TotVArhExpQ3" access="read"/>
+    <property type="u" name="TotVArhExpQ4" access="read"/>
+    <property type="n" name="TotVArh_SF" access="read"/>
+    <property type="u" name="Evt" access="read"/>
+    <property type="u" name="Ts" access="read"/>
+    <property type="q" name="Ms" access="read"/>
+    <property type="q" name="Seq" access="read"/>
+    <property type="q" name="Alg" access="read"/>
+    <property type="q" name="N" access="read"/>
+    <property type="aq" name="DS" access="read"/>
+  </interface>

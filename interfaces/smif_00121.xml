@@ -1,0 +1,32 @@
+  <interface name="org.sunspec.Model.121">
+    <property type="q" name="WMax" access="readwrite"/>
+    <property type="q" name="VRef" access="readwrite"/>
+    <property type="n" name="VRefOfs" access="readwrite"/>
+    <property type="q" name="VMax" access="readwrite"/>
+    <property type="q" name="VMin" access="readwrite"/>
+    <property type="q" name="VAMax" access="readwrite"/>
+    <property type="n" name="VArMaxQ1" access="readwrite"/>
+    <property type="n" name="VArMaxQ2" access="readwrite"/>
+    <property type="n" name="VArMaxQ3" access="readwrite"/>
+    <property type="n" name="VArMaxQ4" access="readwrite"/>
+    <property type="q" name="WGra" access="readwrite"/>
+    <property type="n" name="PFMinQ1" access="readwrite"/>
+    <property type="n" name="PFMinQ2" access="readwrite"/>
+    <property type="n" name="PFMinQ3" access="readwrite"/>
+    <property type="n" name="PFMinQ4" access="readwrite"/>
+    <property type="q" name="VArAct" access="readwrite"/>
+    <property type="q" name="ClcTotVA" access="readwrite"/>
+    <property type="q" name="MaxRmpRte" access="readwrite"/>
+    <property type="q" name="ECPNomHz" access="readwrite"/>
+    <property type="q" name="ConnPh" access="readwrite"/>
+    <property type="n" name="WMax_SF" access="read"/>
+    <property type="n" name="VRef_SF" access="read"/>
+    <property type="n" name="VRefOfs_SF" access="read"/>
+    <property type="n" name="VMinMax_SF" access="read"/>
+    <property type="n" name="VAMax_SF" access="read"/>
+    <property type="n" name="VArMax_SF" access="read"/>
+    <property type="n" name="WGra_SF" access="read"/>
+    <property type="n" name="PFMin_SF" access="read"/>
+    <property type="n" name="MaxRmpRte_SF" access="read"/>
+    <property type="n" name="ECPNomHz_SF" access="read"/>
+  </interface>

@@ -1,0 +1,5 @@
+  <interface name="org.sunspec.Model.304">
+    <property type="ai" name="Inclx" access="read"/>
+    <property type="ai" name="Incly" access="read"/>
+    <property type="ai" name="Inclz" access="read"/>
+  </interface>

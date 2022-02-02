@@ -1,0 +1,9 @@
+  <interface name=org.sunspec.Model.125>
+    <property type="q" name="ModEna" access="read"/>
+    <property type="q" name="SigType" access="read"/>
+    <property type="n" name="Sig" access="read"/>
+    <property type="q" name="WinTms" access="read"/>
+    <property type="q" name="RvtTms" access="read"/>
+    <property type="q" name="RmpTms" access="read"/>
+    <property type="n" name="Sig_SF" access="read"/>
+  </interface>

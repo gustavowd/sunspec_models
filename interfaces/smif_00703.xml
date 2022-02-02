@@ -1,0 +1,13 @@
+  <interface name="org.sunspec.Model.703">
+    <property type="q" name="ES" access="read"/>
+    <property type="q" name="ESVHi" access="read"/>
+    <property type="q" name="ESVLo" access="read"/>
+    <property type="u" name="ESHzHi" access="read"/>
+    <property type="u" name="ESHzLo" access="read"/>
+    <property type="u" name="ESDlyTms" access="read"/>
+    <property type="u" name="ESRndTms" access="read"/>
+    <property type="u" name="ESRmpTms" access="read"/>
+    <property type="u" name="ESDlyRemTms" access="read"/>
+    <property type="n" name="V_SF" access="read"/>
+    <property type="n" name="Hz_SF" access="read"/>
+  </interface>

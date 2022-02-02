@@ -1,0 +1,8 @@
+  <interface name="org.sunspec.Model.1">
+    <property type="s" name="Mn" access="read"/>
+    <property type="s" name="Md" access="read"/>
+    <property type="s" name="Opt" access="read"/>
+    <property type="s" name="Vr" access="read"/>
+    <property type="s" name="SN" access="read"/>
+    <property type="q" name="DA" access="readwrite"/>
+  </interface>

@@ -1,0 +1,12 @@
+  <interface name="org.sunspec.Model.2">
+    <property type="q" name="AID" access="read"/>
+    <property type="q" name="N" access="read"/>
+    <property type="q" name="UN" access="read"/>
+    <property type="q" name="St" access="read"/>
+    <property type="q" name="StVnd" access="read"/>
+    <property type="u" name="Evt" access="read"/>
+    <property type="u" name="EvtVnd" access="read"/>
+    <property type="q" name="Ctl" access="read"/>
+    <property type="u" name="CtlVnd" access="read"/>
+    <property type="u" name="CtlVl" access="read"/>
+  </interface>

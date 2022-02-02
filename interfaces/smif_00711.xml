@@ -1,0 +1,19 @@
+  <interface name="org.sunspec.Model.711">
+    <property type="q" name="Ena" access="read"/>
+    <property type="q" name="AdptCtlReq" access="read"/>
+    <property type="q" name="AdptCtlRslt" access="read"/>
+    <property type="q" name="NCtl" access="read"/>
+    <property type="u" name="RvrtTms" access="read"/>
+    <property type="u" name="RvrtRem" access="read"/>
+    <property type="q" name="RvrtCtl" access="read"/>
+    <property type="n" name="Db_SF" access="read"/>
+    <property type="n" name="K_SF" access="read"/>
+    <property type="n" name="RspTms_SF" access="read"/>
+    <property type="u" name="DERFreqDroop.Ctl.DbOf" access="read"/>
+    <property type="u" name="DERFreqDroop.Ctl.DbUf" access="read"/>
+    <property type="q" name="DERFreqDroop.Ctl.KOf" access="read"/>
+    <property type="q" name="DERFreqDroop.Ctl.KUf" access="read"/>
+    <property type="u" name="DERFreqDroop.Ctl.RspTms" access="read"/>
+    <property type="n" name="DERFreqDroop.Ctl.PMin" access="read"/>
+    <property type="q" name="DERFreqDroop.Ctl.ReadOnly" access="read"/>
+  </interface>

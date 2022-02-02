@@ -1,0 +1,6 @@
+  <interface name="org.sunspec.Model.63002">
+    <property type="an" name="sunssf_1" access="read"/>
+    <property type="an" name="int16_1" access="readwrite"/>
+    <property type="an" name="int16_2" access="read"/>
+    <property type="an" name="sunssf_2" access="read"/>
+  </interface>

@@ -1,0 +1,31 @@
+  <interface name="org.sunspec.Model.805">
+    <property type="q" name="StrIdx" access="read"/>
+    <property type="q" name="ModIdx" access="read"/>
+    <property type="q" name="NCell" access="read"/>
+    <property type="q" name="SoC" access="read"/>
+    <property type="q" name="DoD" access="read"/>
+    <property type="q" name="SoH" access="read"/>
+    <property type="u" name="NCyc" access="read"/>
+    <property type="q" name="V" access="read"/>
+    <property type="q" name="CellVMax" access="read"/>
+    <property type="q" name="CellVMaxCell" access="read"/>
+    <property type="q" name="CellVMin" access="read"/>
+    <property type="q" name="CellVMinCell" access="read"/>
+    <property type="q" name="CellVAvg" access="read"/>
+    <property type="n" name="CellTmpMax" access="read"/>
+    <property type="q" name="CellTmpMaxCell" access="read"/>
+    <property type="n" name="CellTmpMin" access="read"/>
+    <property type="q" name="CellTmpMinCell" access="read"/>
+    <property type="n" name="CellTmpAvg" access="read"/>
+    <property type="q" name="NCellBal" access="read"/>
+    <property type="s" name="SN" access="read"/>
+    <property type="n" name="SoC_SF" access="read"/>
+    <property type="n" name="SoH_SF" access="read"/>
+    <property type="n" name="DoD_SF" access="read"/>
+    <property type="n" name="V_SF" access="read"/>
+    <property type="n" name="CellV_SF" access="read"/>
+    <property type="n" name="Tmp_SF" access="read"/>
+    <property type="aq" name="CellV" access="read"/>
+    <property type="an" name="CellTmp" access="read"/>
+    <property type="au" name="CellSt" access="read"/>
+  </interface>

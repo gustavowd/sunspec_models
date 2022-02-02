@@ -1,0 +1,27 @@
+  <interface name="org.sunspec.Model.120">
+    <property type="q" name="DERTyp" access="read"/>
+    <property type="q" name="WRtg" access="read"/>
+    <property type="n" name="WRtg_SF" access="read"/>
+    <property type="q" name="VARtg" access="read"/>
+    <property type="n" name="VARtg_SF" access="read"/>
+    <property type="n" name="VArRtgQ1" access="read"/>
+    <property type="n" name="VArRtgQ2" access="read"/>
+    <property type="n" name="VArRtgQ3" access="read"/>
+    <property type="n" name="VArRtgQ4" access="read"/>
+    <property type="n" name="VArRtg_SF" access="read"/>
+    <property type="q" name="ARtg" access="read"/>
+    <property type="n" name="ARtg_SF" access="read"/>
+    <property type="n" name="PFRtgQ1" access="read"/>
+    <property type="n" name="PFRtgQ2" access="read"/>
+    <property type="n" name="PFRtgQ3" access="read"/>
+    <property type="n" name="PFRtgQ4" access="read"/>
+    <property type="n" name="PFRtg_SF" access="read"/>
+    <property type="q" name="WHRtg" access="read"/>
+    <property type="n" name="WHRtg_SF" access="read"/>
+    <property type="q" name="AhrRtg" access="read"/>
+    <property type="n" name="AhrRtg_SF" access="read"/>
+    <property type="q" name="MaxChaRte" access="read"/>
+    <property type="n" name="MaxChaRte_SF" access="read"/>
+    <property type="q" name="MaxDisChaRte" access="read"/>
+    <property type="n" name="MaxDisChaRte_SF" access="read"/>
+  </interface>

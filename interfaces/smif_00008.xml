@@ -1,0 +1,5 @@
+  <interface name="org.sunspec.Model.8">
+    <property type="q" name="Fmt" access="read"/>
+    <property type="q" name="N" access="read"/>
+    <property type="aq" name="Cert" access="read"/>
+  </interface>

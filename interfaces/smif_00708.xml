@@ -1,0 +1,19 @@
+  <interface name="org.sunspec.Model.708">
+    <property type="q" name="Ena" access="read"/>
+    <property type="q" name="AdptCrvReq" access="read"/>
+    <property type="q" name="AdptCrvRslt" access="read"/>
+    <property type="q" name="NPt" access="read"/>
+    <property type="q" name="NCrvSet" access="read"/>
+    <property type="n" name="V_SF" access="read"/>
+    <property type="n" name="Tms_SF" access="read"/>
+    <property type="q" name="DERTripHV.Crv.ReadOnly" access="read"/>
+    <property type="q" name="DERTripHV.Crv.MustTrip.ActPt" access="read"/>
+    <property type="q" name="DERTripHV.Crv.MustTrip.Pt.V" access="read"/>
+    <property type="u" name="DERTripLV.Crv.MustTrip.Pt.Tms" access="read"/>
+    <property type="q" name="DERTripHV.Crv.MayTrip.ActPt" access="read"/>
+    <property type="q" name="DERTripHV.Crv.MayTrip.Pt.V" access="read"/>
+    <property type="u" name="DERTripHV.Crv.MayTrip.Pt.Tms" access="read"/>
+    <property type="q" name="DERTripHV.Crv.MomCess.ActPt" access="read"/>
+    <property type="q" name="DERTripHV.Crv.MomCess.Pt.V" access="read"/>
+    <property type="u" name="DERTripHV.Crv.MomCess.Pt.Tms" access="read"/>
+  </interface>

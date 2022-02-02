@@ -1,0 +1,26 @@
+  <interface name="org.sunspec.Model.123">
+    <property type="q" name="Conn_WinTms" access="readwrite"/>
+    <property type="q" name="Conn_RvrtTms" access="readwrite"/>
+    <property type="q" name="Conn" access="readwrite"/>
+    <property type="q" name="WMaxLimPct" access="readwrite"/>
+    <property type="q" name="WMaxLimPct_WinTms" access="readwrite"/>
+    <property type="q" name="WMaxLimPct_RvrtTms" access="readwrite"/>
+    <property type="q" name="WMaxLimPct_RmpTms" access="readwrite"/>
+    <property type="q" name="WMaxLim_Ena" access="readwrite"/>
+    <property type="n" name="OutPFSet" access="readwrite"/>
+    <property type="q" name="OutPFSet_WinTms" access="readwrite"/>
+    <property type="q" name="OutPFSet_RvrtTms" access="readwrite"/>
+    <property type="q" name="OutPFSet_RmpTms" access="readwrite"/>
+    <property type="q" name="OutPFSet_Ena" access="readwrite"/>
+    <property type="n" name="VArWMaxPct" access="readwrite"/>
+    <property type="n" name="VArMaxPct" access="readwrite"/>
+    <property type="n" name="VArAvalPct" access="readwrite"/>
+    <property type="q" name="VArPct_WinTms" access="readwrite"/>
+    <property type="q" name="VArPct_RvrtTms" access="readwrite"/>
+    <property type="q" name="VArPct_RmpTms" access="readwrite"/>
+    <property type="q" name="VArPct_Mod" access="readwrite"/>
+    <property type="q" name="VArPct_Ena" access="readwrite"/>
+    <property type="n" name="WMaxLimPct_SF" access="read"/>
+    <property type="n" name="OutPFSet_SF" access="read"/>
+    <property type="n" name="VArPct_SF" access="read"/>
+  </interface>

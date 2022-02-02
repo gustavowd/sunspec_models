@@ -1,0 +1,26 @@
+  <interface name="org.sunspec.Model.124">
+    <property type="q" name="WChaMax" access="readwrite"/>
+    <property type="q" name="WChaGra" access="readwrite"/>
+    <property type="q" name="WDisChaGra" access="readwrite"/>
+    <property type="q" name="StorCtl_Mod" access="readwrite"/>
+    <property type="q" name="VAChaMax" access="readwrite"/>
+    <property type="q" name="MinRsvPct" access="readwrite"/>
+    <property type="q" name="ChaState" access="read"/>
+    <property type="q" name="StorAval" access="read"/>
+    <property type="q" name="InBatV" access="read"/>
+    <property type="q" name="ChaSt" access="read"/>
+    <property type="n" name="OutWRte" access="readwrite"/>
+    <property type="n" name="InWRte" access="readwrite"/>
+    <property type="q" name="InOutWRte_WinTms" access="readwrite"/>
+    <property type="q" name="InOutWRte_RvrtTms" access="readwrite"/>
+    <property type="q" name="InOutWRte_RmpTms" access="readwrite"/>
+    <property type="q" name="ChaGriSet" access="readwrite"/>
+    <property type="n" name="WChaMax_SF" access="read"/>
+    <property type="n" name="WChaDisChaGra_SF" access="read"/>
+    <property type="n" name="VAChaMax_SF" access="read"/>
+    <property type="n" name="MinRsvPct_SF" access="read"/>
+    <property type="n" name="ChaState_SF" access="read"/>
+    <property type="n" name="StorAval_SF" access="read"/>
+    <property type="n" name="InBatV_SF" access="read"/>
+    <property type="n" name="InOutWRte_SF" access="read"/>
+  </interface>

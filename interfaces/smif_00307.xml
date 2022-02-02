@@ -1,0 +1,13 @@
+  <interface name="org.sunspec.Model.307">
+    <property type="n" name="TmpAmb" access="read"/>
+    <property type="n" name="RH" access="read"/>
+    <property type="n" name="Pres" access="read"/>
+    <property type="n" name="WndSpd" access="read"/>
+    <property type="n" name="WndDir" access="read"/>
+    <property type="n" name="Rain" access="read"/>
+    <property type="n" name="Snw" access="read"/>
+    <property type="n" name="PPT" access="read"/>
+    <property type="n" name="ElecFld" access="read"/>
+    <property type="n" name="SurWet" access="read"/>
+    <property type="n" name="SoilWet" access="read"/>
+  </interface>

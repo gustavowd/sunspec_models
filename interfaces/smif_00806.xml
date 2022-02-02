@@ -1,0 +1,4 @@
+  <interface name="org.sunspec.Model.806">
+    <property type="q" name="BatTBD" access="read"/>
+    <property type="aq" name="BatStTBD" access="read"/>
+  </interface>

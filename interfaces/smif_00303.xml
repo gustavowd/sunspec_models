@@ -1,0 +1,3 @@
+  <interface name="org.sunspec.Model.303">
+    <property type="an" name="TmpBOM" access="read"/>
+  </interface>

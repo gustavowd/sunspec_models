@@ -1,0 +1,7 @@
+  <interface name="org.sunspec.Model.18">
+    <property type="s" name="Nam" access="readwrite"/>
+    <property type="u" name="IMEI" access="readwrite"/>
+    <property type="s" name="APN" access="readwrite"/>
+    <property type="s" name="Num" access="readwrite"/>
+    <property type="s" name="Pin" access="readwrite"/>
+  </interface>

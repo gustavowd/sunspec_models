@@ -1,0 +1,15 @@
+  <interface name="org.sunspec.Model.128">
+    <property type="q" name="ArGraMod" access="readwrite"/>
+    <property type="q" name="ArGraSag" access="readwrite"/>
+    <property type="q" name="ArGraSwell" access="readwrite"/>
+    <property type="q" name="ModEna" access="readwrite"/>
+    <property type="q" name="FilTms" access="readwrite"/>
+    <property type="q" name="DbVMin" access="readwrite"/>
+    <property type="q" name="DbVMax" access="readwrite"/>
+    <property type="q" name="BlkZnV" access="readwrite"/>
+    <property type="q" name="HysBlkZnV" access="readwrite"/>
+    <property type="q" name="BlkZnTmms" access="readwrite"/>
+    <property type="q" name="HoldTmms" access="readwrite"/>
+    <property type="n" name="ArGra_SF" access="read"/>
+    <property type="n" name="VRefPct_SF" access="read"/>
+  </interface>

@@ -1,0 +1,11 @@
+  <interface name="org.sunspec.Model.127">
+    <property type="q" name="WGra" access="readwrite"/>
+    <property type="n" name="HzStr" access="readwrite"/>
+    <property type="n" name="HzStop" access="readwrite"/>
+    <property type="q" name="HysEna" access="readwrite"/>
+    <property type="q" name="ModEna" access="readwrite"/>
+    <property type="q" name="HzStopWGra" access="readwrite"/>
+    <property type="n" name="WGra_SF" access="read"/>
+    <property type="n" name="HzStrStop_SF" access="read"/>
+    <property type="n" name="RmpIncDec_SF" access="read"/>
+  </interface>

@@ -1,0 +1,3 @@
+  <interface name="org.sunspec.Model.801">
+    <property type="q" name="DEPRECATED" access="read"/>
+  </interface>

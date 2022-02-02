@@ -1,0 +1,17 @@
+  <interface name="org.sunspec.Model.13">
+    <property type="s" name="Nam" access="readwrite"/>
+    <property type="q" name="CfgSt" access="read"/>
+    <property type="q" name="ChgSt" access="read"/>
+    <property type="q" name="Cap" access="read"/>
+    <property type="q" name="Cfg" access="readwrite"/>
+    <property type="q" name="Ctl" access="readwrite"/>
+    <property type="s" name="Addr" access="readwrite"/>
+    <property type="s" name="CIDR" access="readwrite"/>
+    <property type="s" name="Gw" access="readwrite"/>
+    <property type="s" name="DNS1" access="readwrite"/>
+    <property type="s" name="DNS2" access="readwrite"/>
+    <property type="s" name="NTP1" access="readwrite"/>
+    <property type="s" name="NTP2" access="readwrite"/>
+    <property type="s" name="DomNam" access="readwrite"/>
+    <property type="s" name="HostNam" access="readwrite"/>
+  </interface>

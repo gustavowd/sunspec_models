@@ -1,0 +1,33 @@
+  <interface name="org.sunspec.Model.112">
+    <property type="d" name="A" access="read"/>
+    <property type="d" name="AphA" access="read"/>
+    <property type="d" name="AphB" access="read"/>
+    <property type="d" name="AphC" access="read"/>
+    <property type="d" name="PPVphAB" access="read"/>
+    <property type="d" name="PPVphBC" access="read"/>
+    <property type="d" name="PPVphCA" access="read"/>
+    <property type="d" name="PhVphA" access="read"/>
+    <property type="d" name="PhVphB" access="read"/>
+    <property type="d" name="PhVphC" access="read"/>
+    <property type="d" name="W" access="read"/>
+    <property type="d" name="Hz" access="read"/>
+    <property type="d" name="VA" access="read"/>
+    <property type="d" name="VAr" access="read"/>
+    <property type="d" name="PF" access="read"/>
+    <property type="d" name="WH" access="read"/>
+    <property type="d" name="DCA" access="read"/>
+    <property type="d" name="DCV" access="read"/>
+    <property type="d" name="DCW" access="read"/>
+    <property type="d" name="TmpCab" access="read"/>
+    <property type="d" name="TmpSnk" access="read"/>
+    <property type="d" name="TmpTrns" access="read"/>
+    <property type="d" name="TmpOt" access="read"/>
+    <property type="q" name="St" access="read"/>
+    <property type="q" name="StVnd" access="read"/>
+    <property type="u" name="Evt1" access="read"/>
+    <property type="u" name="Evt2" access="read"/>
+    <property type="u" name="EvtVnd1" access="read"/>
+    <property type="u" name="EvtVnd2" access="read"/>
+    <property type="u" name="EvtVnd3" access="read"/>
+    <property type="u" name="EvtVnd4" access="read"/>
+  </interface>

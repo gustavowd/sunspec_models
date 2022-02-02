@@ -1,0 +1,9 @@
+  <interface name="org.sunspec.Model.64101">
+    <property type="q" name="Eltek_Country_Code" access="read"/>
+    <property type="q" name="Eltek_Feeding_Phase" access="read"/>
+    <property type="q" name="Eltek_APD_Method" access="read"/>
+    <property type="q" name="Eltek_APD_Power_Ref" access="read"/>
+    <property type="q" name="Eltek_RPS_Method" access="read"/>
+    <property type="q" name="Eltek_RPS_Q_Ref" access="read"/>
+    <property type="n" name="Eltek_RPS_CosPhi_Ref" access="read"/>
+  </interface>

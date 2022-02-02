@@ -1,0 +1,18 @@
+  <interface name="org.sunspec.Model.401">
+    <property type="n" name="DCA_SF" access="read"/>
+    <property type="n" name="DCAhr_SF" access="read"/>
+    <property type="n" name="DCV_SF" access="read"/>
+    <property type="q" name="DCAMax" access="read"/>
+    <property type="q" name="N" access="read"/>
+    <property type="u" name="Evt" access="read"/>
+    <property type="u" name="EvtVnd" access="read"/>
+    <property type="n" name="DCA" access="read"/>
+    <property type="u" name="DCAhr" access="read"/>
+    <property type="q" name="DCV" access="read"/>
+    <property type="n" name="Tmp" access="read"/>
+    <property type="aq" name="InID" access="read"/>
+    <property type="au" name="InEvt" access="read"/>
+    <property type="au" name="InEvtVnd" access="read"/>
+    <property type="an" name="InDCA" access="read"/>
+    <property type="au" name="InDCAhr" access="read"/>
+  </interface>

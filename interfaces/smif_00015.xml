@@ -1,0 +1,14 @@
+  <interface name="org.sunspec.Model.15">
+    <property type="q" name="Clr" access="readwrite"/>
+    <property type="u" name="InCnt" access="read"/>
+    <property type="u" name="InUcCnt" access="read"/>
+    <property type="u" name="InNUcCnt" access="read"/>
+    <property type="u" name="InDscCnt" access="read"/>
+    <property type="u" name="InErrCnt" access="read"/>
+    <property type="u" name="InUnkCnt" access="read"/>
+    <property type="u" name="OutCnt" access="read"/>
+    <property type="u" name="OutUcCnt" access="read"/>
+    <property type="u" name="OutNUcCnt" access="read"/>
+    <property type="u" name="OutDscCnt" access="read"/>
+    <property type="u" name="OutErrCnt" access="read"/>
+  </interface>

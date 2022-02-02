@@ -1,0 +1,11 @@
+  <interface name="org.sunspec.Model.7">
+    <property type="q" name="RqSeq" access="read"/>
+    <property type="q" name="Sts" access="read"/>
+    <property type="u" name="Ts" access="read"/>
+    <property type="q" name="Ms" access="read"/>
+    <property type="q" name="Seq" access="read"/>
+    <property type="q" name="Alm" access="read"/>
+    <property type="q" name="Alg" access="read"/>
+    <property type="q" name="N" access="readwrite"/>
+    <property type="aq" name="DS" access="readwrite"/>
+  </interface>

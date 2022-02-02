@@ -1,0 +1,10 @@
+  <interface name="org.sunspec.Model.145">
+    <property type="q" name="NomRmpUpRte" access="readwrite"/>
+    <property type="q" name="NomRmpDnRte" access="readwrite"/>
+    <property type="q" name="EmgRmpUpRte" access="readwrite"/>
+    <property type="q" name="EmgRmpDnRte" access="readwrite"/>
+    <property type="q" name="ConnRmpUpRte" access="readwrite"/>
+    <property type="q" name="ConnRmpDnRte" access="readwrite"/>
+    <property type="q" name="AGra" access="readwrite"/>
+    <property type="n" name="Rmp_SF" access="read"/>
+  </interface>

@@ -1,0 +1,11 @@
+  <interface name="org.sunspec.Model.19">
+    <property type="s" name="Nam" access="readwrite"/>
+    <property type="u" name="Rte" access="readwrite"/>
+    <property type="q" name="Bits" access="readwrite"/>
+    <property type="q" name="Pty" access="readwrite"/>
+    <property type="q" name="Dup" access="readwrite"/>
+    <property type="q" name="Flw" access="readwrite"/>
+    <property type="q" name="Auth" access="read"/>
+    <property type="s" name="UsrNam" access="read"/>
+    <property type="s" name="Pw" access="read"/>
+  </interface>

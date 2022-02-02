@@ -1,0 +1,4 @@
+  <interface name="org.sunspec.Model.809">
+    <property type="q" name="StackTBD" access="read"/>
+    <property type="aq" name="CellTBD" access="read"/>
+  </interface>

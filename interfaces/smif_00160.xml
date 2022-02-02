@@ -1,0 +1,19 @@
+  <interface name="org.sunspec.Model.160">
+    <property type="n" name="DCA_SF" access="read"/>
+    <property type="n" name="DCV_SF" access="read"/>
+    <property type="n" name="DCW_SF" access="read"/>
+    <property type="n" name="DCWH_SF" access="read"/>
+    <property type="u" name="Evt" access="read"/>
+    <property type="q" name="N" access="read"/>
+    <property type="q" name="TmsPer" access="read"/>
+    <property type="aq" name="ID" access="read"/>
+    <property type="as" name="IDStr" access="read"/>
+    <property type="aq" name="DCA" access="read"/>
+    <property type="aq" name="DCV" access="read"/>
+    <property type="aq" name="DCW" access="read"/>
+    <property type="au" name="DCWH" access="read"/>
+    <property type="au" name="Tms" access="read"/>
+    <property type="an" name="Tmp" access="read"/>
+    <property type="aq" name="DCSt" access="read"/>
+    <property type="au" name="DCEvt" access="read"/>
+  </interface>

@@ -1,0 +1,8 @@
+  <interface name="org.sunspec.Model.305">
+    <property type="s" name="Tm" access="read"/>
+    <property type="s" name="Date" access="read"/>
+    <property type="s" name="Loc" access="read"/>
+    <property type="i" name="Lat" access="read"/>
+    <property type="i" name="Long" access="read"/>
+    <property type="i" name="Alt" access="read"/>
+  </interface>

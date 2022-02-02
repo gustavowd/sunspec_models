@@ -1,0 +1,25 @@
+  <interface name="org.sunspec.Model.64111">
+    <property type="q" name="Port" access="read"/>
+    <property type="n" name="V_SF" access="read"/>
+    <property type="n" name="A_SF" access="read"/>
+    <property type="n" name="P_SF" access="read"/>
+    <property type="n" name="AH_SF" access="read"/>
+    <property type="n" name="KWH_SF" access="read"/>
+    <property type="q" name="BattV" access="read"/>
+    <property type="q" name="ArrayV" access="read"/>
+    <property type="q" name="OutputA" access="read"/>
+    <property type="q" name="InputA" access="read"/>
+    <property type="q" name="ChargerSt" access="read"/>
+    <property type="q" name="OutputW" access="read"/>
+    <property type="q" name="TodayMinBatV" access="read"/>
+    <property type="q" name="TodayMaxBatV" access="read"/>
+    <property type="q" name="VOCV" access="read"/>
+    <property type="q" name="TodayMaxVOC" access="read"/>
+    <property type="q" name="TodaykWhOutput" access="read"/>
+    <property type="q" name="TodayAHOutput" access="read"/>
+    <property type="q" name="LifeTimeKWHOut" access="read"/>
+    <property type="q" name="LifeTimeAHOut" access="read"/>
+    <property type="q" name="LifeTimeMaxOut" access="read"/>
+    <property type="q" name="LifeTimeMaxBatt" access="read"/>
+    <property type="q" name="LifeTimeMaxVOC" access="read"/>
+  </interface>

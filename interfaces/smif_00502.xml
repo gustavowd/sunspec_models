@@ -1,0 +1,23 @@
+  <interface name="org.sunspec.Model.502">
+    <property type="n" name="A_SF" access="read"/>
+    <property type="n" name="V_SF" access="read"/>
+    <property type="n" name="W_SF" access="read"/>
+    <property type="n" name="Wh_SF" access="read"/>
+    <property type="q" name="Stat" access="read"/>
+    <property type="q" name="StatVend" access="read"/>
+    <property type="u" name="Evt" access="read"/>
+    <property type="u" name="EvtVend" access="read"/>
+    <property type="q" name="Ctl" access="readwrite"/>
+    <property type="u" name="CtlVend" access="readwrite"/>
+    <property type="i" name="CtlVal" access="readwrite"/>
+    <property type="u" name="Tms" access="read"/>
+    <property type="n" name="OutA" access="read"/>
+    <property type="n" name="OutV" access="read"/>
+    <property type="u" name="OutWh" access="read"/>
+    <property type="n" name="OutPw" access="read"/>
+    <property type="n" name="Tmp" access="read"/>
+    <property type="n" name="InA" access="read"/>
+    <property type="n" name="InV" access="read"/>
+    <property type="u" name="InWh" access="read"/>
+    <property type="n" name="InW" access="read"/>
+  </interface>
