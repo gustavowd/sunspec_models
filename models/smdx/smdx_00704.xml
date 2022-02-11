@@ -12,7 +12,6 @@
       </point>
       <point id="PFWInjRvrtTms" offset="2" type="uint32" units="Secs" />
       <point id="PFWInjRvrtRem" offset="4" type="uint32" units="Secs" />
-      
       <point id="PFWAbsEna" offset="6" type="enum16" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
@@ -45,8 +44,8 @@
       </point>
       <point id="WSet" offset="22" type="int32" units="W" sf="WSet_SF" />
       <point id="WSetRvrt" offset="24" type="int32" units="W" sf="WSet_SF" />
-      <point id="WSetPct" offset="26" type="int16" units="W" sf="WSetPct_SF" />
-      <point id="WSetPctRvrt" offset="27" type="int16" units="W" sf="WSetPct_SF" />
+      <point id="WSetPct" offset="26" type="int16" units="Pct" sf="WSetPct_SF" />
+      <point id="WSetPctRvrt" offset="27" type="int16" units="Pct" sf="WSetPct_SF" />
       <point id="WSetEnaRvrt" offset="28" type="enum16" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>

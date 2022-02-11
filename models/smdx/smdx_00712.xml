@@ -13,7 +13,7 @@
         <symbol id="FAILED">2</symbol>
       </point>
       <point id="NPt" offset="3" type="uint16" mandatory="true" />
-      <point id="NCrv" offset="4" type="uint16" units="Secs" />
+      <point id="NCrv" offset="4" type="uint16" mandatory="true" />
       <point id="RvrtTms" offset="5" type="uint32" units="Secs" />
       <point id="RvrtRem" offset="7" type="uint32" units="Secs" />      
       <point id="RvrtCrv" offset="9" type="uint16" />   
