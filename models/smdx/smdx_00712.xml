@@ -2,11 +2,11 @@
   <!-- 712: DER Watt-Var -->
   <model id="712" len="18" name="DERWattVar" >
     <block len="18">
-   	  <point id="Ena" offset="0" type="enum16" mandatory="true" >
+   	  <point id="Ena" offset="0" type="enum16" access="rw" mandatory="true" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="AdptCrvReq" offset="1" type="uint16" mandatory="true" />
+      <point id="AdptCrvReq" offset="1" type="uint16" access="rw" mandatory="true" />
       <point id="AdptCrvRslt" offset="2" type="enum16" mandatory="true" >
         <symbol id="IN_PROGRESS">0</symbol>
         <symbol id="COMPLETED">1</symbol>
@@ -14,19 +14,19 @@
       </point>
       <point id="NPt" offset="3" type="uint16" mandatory="true" />
       <point id="NCrv" offset="4" type="uint16" mandatory="true" />
-      <point id="RvrtTms" offset="5" type="uint32" units="Secs" />
+      <point id="RvrtTms" offset="5" type="uint32" access="rw" units="Secs" />
       <point id="RvrtRem" offset="7" type="uint32" units="Secs" />      
-      <point id="RvrtCrv" offset="9" type="uint16" />   
+      <point id="RvrtCrv" offset="9" type="uint16" access="rw" />   
       <point id="W_SF" offset="10" type="sunssf" mandatory="true" />
       <point id="DeptRef_SF" offset="11" type="sunssf" mandatory="true" /> 
-      <point id="DERWattVar.Crv.ActPt" offset="12" type="uint16" mandatory="true" />
-   	  <point id="DERWattVar.Crv.DeptRef" offset="13" type="enum16" mandatory="true" >
+      <point id="DERWattVar.Crv.ActPt" offset="12" type="uint16" access="rw" mandatory="true" />
+   	  <point id="DERWattVar.Crv.DeptRef" offset="13" type="enum16" access="rw" mandatory="true" >
         <symbol id="W_MAX_PCT">0</symbol>
         <symbol id="VAR_MAX_PCT">1</symbol>
         <symbol id="VAR_AVAL_PCT">2</symbol>        
         <symbol id="VA_MAX_PCT">3</symbol>        
       </point>      
-   	  <point id="DERWattVar.Crv.Pri" offset="14" type="enum16" >
+   	  <point id="DERWattVar.Crv.Pri" offset="14" type="enum16" access="rw" >
         <symbol id="ACTIVE">0</symbol>
         <symbol id="REACTIVE">1</symbol>
       </point>
@@ -34,8 +34,8 @@
         <symbol id="RW">0</symbol>
         <symbol id="R">1</symbol>
       </point>               
-      <point id="DERWattVar.Crv.Pt.W" offset="16" type="int16" units="WMaxPct" sf="W_SF" mandatory="true" />   
-      <point id="DERWattVar.Crv.Pt.Var" offset="17" type="int16" units="VarPct" sf="DeptRef_SF" mandatory="true" />         
+      <point id="DERWattVar.Crv.Pt.W" offset="16" type="int16" access="rw" units="WMaxPct" sf="W_SF" mandatory="true" />   
+      <point id="DERWattVar.Crv.Pt.Var" offset="17" type="int16" access="rw" units="VarPct" sf="DeptRef_SF" mandatory="true" />         
     </block>
   </model>
   <strings id="712" locale="en">

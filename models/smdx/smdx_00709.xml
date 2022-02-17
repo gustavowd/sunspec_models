@@ -2,11 +2,11 @@
   <!-- 709: DER Trip LF -->
   <model id="709" len="23" name="DERTripLF" >
     <block len="23">
-   	  <point id="Ena" offset="0" type="enum16" mandatory="true" >
+   	  <point id="Ena" offset="0" type="enum16" access="rw" mandatory="true" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="AdptCrvReq" offset="1" type="uint16" mandatory="true" />
+      <point id="AdptCrvReq" offset="1" type="uint16" access="rw" mandatory="true" />
       <point id="AdptCrvRslt" offset="2" type="enum16" mandatory="true" >
         <symbol id="IN_PROGRESS">0</symbol>
         <symbol id="COMPLETED">1</symbol>
@@ -20,15 +20,15 @@
         <symbol id="RW">0</symbol>
         <symbol id="R">1</symbol>
       </point> 
-      <point id="DERTripLF.Crv.MustTrip.ActPt" offset="8" type="uint16" mandatory="true" />
-      <point id="DERTripLF.Crv.MustTrip.Pt.Hz" offset="9" type="uint32" units="Hz" sf="Hz_SF" mandatory="true" /> 
-      <point id="DERTripLF.Crv.MustTrip.Pt.Tms" offset="11" type="uint32" units="Secs" sf="Tms_SF" mandatory="true" />  
-      <point id="DERTripLF.Crv.MayTrip.ActPt" offset="13" type="uint16" mandatory="true" />
-      <point id="DERTripLF.Crv.MayTrip.Pt.Hz" offset="14" type="uint32" units="Hz" sf="Hz_SF" mandatory="true" /> 
-      <point id="DERTripLF.Crv.MayTrip.Pt.Tms" offset="16" type="uint32" units="Secs" sf="Tms_SF" mandatory="true" />
-      <point id="DERTripLF.Crv.MomCess.ActPt" offset="18" type="uint16" mandatory="true" />
-	  <point id="DERTripLF.Crv.MomCess.Pt.Hz" offset="19" type="uint32" units="Hz" sf="Hz_SF" mandatory="true" /> 
-      <point id="DERTripLF.Crv.MomCess.Pt.Tms" offset="21" type="uint32" units="Secs" sf="Tms_SF" mandatory="true" />
+      <point id="DERTripLF.Crv.MustTrip.ActPt" offset="8" type="uint16" access="rw" mandatory="true" />
+      <point id="DERTripLF.Crv.MustTrip.Pt.Hz" offset="9" type="uint32" access="rw" units="Hz" sf="Hz_SF" mandatory="true" /> 
+      <point id="DERTripLF.Crv.MustTrip.Pt.Tms" offset="11" type="uint32" access="rw" units="Secs" sf="Tms_SF" mandatory="true" />  
+      <point id="DERTripLF.Crv.MayTrip.ActPt" offset="13" type="uint16" access="rw" />
+      <point id="DERTripLF.Crv.MayTrip.Pt.Hz" offset="14" type="uint32" access="rw" units="Hz" sf="Hz_SF" /> 
+      <point id="DERTripLF.Crv.MayTrip.Pt.Tms" offset="16" type="uint32" access="rw" units="Secs" sf="Tms_SF" />
+      <point id="DERTripLF.Crv.MomCess.ActPt" offset="18" type="uint16" access="rw" />
+	  <point id="DERTripLF.Crv.MomCess.Pt.Hz" offset="19" type="uint32" access="rw" units="Hz" sf="Hz_SF" /> 
+      <point id="DERTripLF.Crv.MomCess.Pt.Tms" offset="21" type="uint32" access="rw" units="Secs" sf="Tms_SF" />
     </block>
   </model>
   <strings id="709" locale="en">

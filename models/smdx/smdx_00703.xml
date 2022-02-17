@@ -2,20 +2,20 @@
   <!-- 703: DER Enter Service -->
   <model id="703" len="17" name="DEREnterService">
     <block len="17">
-   	  <point id="ES" offset="0" type="enum16" access="rw" >
+   	  <point id="ES" offset="0" type="enum16" access="rw" mandatory="true" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="ESVHi" offset="1" type="uint16" access="rw" units="Pct" sf="V_SF" />
-      <point id="ESVLo" offset="2" type="uint16" access="rw" units="Pct" sf="V_SF" />
-      <point id="ESHzHi" offset="3" type="uint32" access="rw" units="Hz" sf="Hz_SF" />
-      <point id="ESHzLo" offset="5" type="uint32" access="rw" units="Hz" sf="Hz_SF" />
-      <point id="ESDlyTms" offset="7" type="uint32" access="rw" units="Secs" />
-      <point id="ESRndTms" offset="9" type="uint32" access="rw" units="Secs" />
-      <point id="ESRmpTms" offset="11" type="uint32" access="rw" units="Secs" />
+      <point id="ESVHi" offset="1" type="uint16" access="rw" units="Pct" sf="V_SF" mandatory="true" />
+      <point id="ESVLo" offset="2" type="uint16" access="rw" units="Pct" sf="V_SF" mandatory="true" />
+      <point id="ESHzHi" offset="3" type="uint32" access="rw" units="Hz" sf="Hz_SF" mandatory="true" />
+      <point id="ESHzLo" offset="5" type="uint32" access="rw" units="Hz" sf="Hz_SF" mandatory="true" />
+      <point id="ESDlyTms" offset="7" type="uint32" access="rw" units="Secs" mandatory="true" />
+      <point id="ESRndTms" offset="9" type="uint32" access="rw" units="Secs" mandatory="true" />
+      <point id="ESRmpTms" offset="11" type="uint32" access="rw" units="Secs" mandatory="true" />
       <point id="ESDlyRemTms" offset="13" type="uint32" units="Secs" />
-      <point id="V_SF" offset="15" type="sunssf" />
-      <point id="Hz_SF" offset="16" type="sunssf" />
+      <point id="V_SF" offset="15" type="sunssf" mandatory="true" />
+      <point id="Hz_SF" offset="16" type="sunssf" mandatory="true" />
     </block>
   </model>
   <strings id="703" locale="en">

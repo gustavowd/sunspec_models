@@ -2,11 +2,11 @@
   <!-- 706: DER Volt-Watt -->
   <model id="706" len="20" name="DERVoltWatt" >
     <block len="20">
-   	  <point id="Ena" offset="0" type="enum16" mandatory="true" >
+   	  <point id="Ena" offset="0" type="enum16" access="rw" mandatory="true" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="AdptCrvReq" offset="1" type="uint16" mandatory="true" />
+      <point id="AdptCrvReq" offset="1" type="uint16" access="rw" mandatory="true" />
       <point id="AdptCrvRslt" offset="2" type="enum16" mandatory="true" >
         <symbol id="IN_PROGRESS">0</symbol>
         <symbol id="COMPLETED">1</symbol>
@@ -14,24 +14,24 @@
       </point>
       <point id="NPt" offset="3" type="uint16" mandatory="true" />
       <point id="NCrv" offset="4" type="uint16" mandatory="true" />
-      <point id="RvrtTms" offset="5" type="uint32" units="Secs" />
+      <point id="RvrtTms" offset="5" type="uint32" access="rw" units="Secs" />
       <point id="RvrtRem" offset="7" type="uint32" units="Secs" />
-      <point id="RvrtCrv" offset="9" type="uint16" />
+      <point id="RvrtCrv" offset="9" type="uint16" access="rw" />
       <point id="V_SF" offset="10" type="sunssf" mandatory="true" />
       <point id="DeptRef_SF" offset="11" type="sunssf" mandatory="true" />
       <point id="RspTms_SF" offset="12" type="sunssf" mandatory="true" />
-      <point id="DERVoltWatt.Crv.ActPt" offset="13" type="uint16" mandatory="true" />
-      <point id="DERVoltWatt.Crv.DeptRef" offset="14" type="enum16" mandatory="true" >
+      <point id="DERVoltWatt.Crv.ActPt" offset="13" type="uint16" access="rw" mandatory="true" />
+      <point id="DERVoltWatt.Crv.DeptRef" offset="14" type="enum16" access="rw" mandatory="true" >
         <symbol id="W_MAX_PCT">0</symbol>
         <symbol id="W_AVAL_PCT">1</symbol>
       </point>
-      <point id="DERVoltWatt.Crv.RspTms" offset="15" type="uint32" units="Secs" sf="RspTms_SF" mandatory="true" />
+      <point id="DERVoltWatt.Crv.RspTms" offset="15" type="uint32" access="rw" units="Secs" sf="RspTms_SF" mandatory="true" />
       <point id="DERVoltWatt.Crv.ReadOnly" offset="17" type="enum16" mandatory="true" >
         <symbol id="RW">0</symbol>
         <symbol id="R">1</symbol>
       </point>
-      <point id="DERVoltWatt.Crv.Pt.V" offset="18" type="uint16" units="VRefPct" sf="V_SF" mandatory="true" />
-      <point id="DERVoltWatt.Crv.Pt.W" offset="19" type="int16" units="DeptRef" sf="DeptRef_SF" mandatory="true" />
+      <point id="DERVoltWatt.Crv.Pt.V" offset="18" type="uint16" access="rw" units="VRefPct" sf="V_SF" mandatory="true" />
+      <point id="DERVoltWatt.Crv.Pt.W" offset="19" type="int16" access="rw" units="DeptRef" sf="DeptRef_SF" mandatory="true" />
     </block>
   </model>
   <strings id="706" locale="en">

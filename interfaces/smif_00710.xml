@@ -1,19 +1,19 @@
   <interface name="org.sunspec.Model.710">
-    <property type="q" name="Ena" access="read"/>
-    <property type="q" name="AdptCrvReq" access="read"/>
+    <property type="q" name="Ena" access="readwrite"/>
+    <property type="q" name="AdptCrvReq" access="readwrite"/>
     <property type="q" name="AdptCrvRslt" access="read"/>
     <property type="q" name="NPt" access="read"/>
     <property type="q" name="NCrvSet" access="read"/>
     <property type="n" name="Hz_SF" access="read"/>
     <property type="n" name="Tms_SF" access="read"/>
     <property type="q" name="DERTripHF.Crv.ReadOnly" access="read"/>
-    <property type="q" name="DERTripHF.Crv.MustTrip.ActPt" access="read"/>
-    <property type="u" name="DERTripHF.Crv.MustTrip.Pt.Hz" access="read"/>
-    <property type="u" name="DERTripHF.Crv.MustTrip.Pt.Tms" access="read"/>
-    <property type="q" name="DERTripHF.Crv.MayTrip.ActPt" access="read"/>
-    <property type="u" name="DERTripHF.Crv.MayTrip.Pt.Hz" access="read"/>
-    <property type="u" name="DERTripHF.Crv.MayTrip.Pt.Tms" access="read"/>
-    <property type="q" name="DERTripHF.Crv.MomCess.ActPt" access="read"/>
-    <property type="u" name="DERTripHF.Crv.MomCess.Pt.Hz" access="read"/>
-    <property type="u" name="DERTripHF.Crv.MomCess.Pt.Tms" access="read"/>
+    <property type="q" name="DERTripHF.Crv.MustTrip.ActPt" access="readwrite"/>
+    <property type="u" name="DERTripHF.Crv.MustTrip.Pt.Hz" access="readwrite"/>
+    <property type="u" name="DERTripHF.Crv.MustTrip.Pt.Tms" access="readwrite"/>
+    <property type="q" name="DERTripHF.Crv.MayTrip.ActPt" access="readwrite"/>
+    <property type="u" name="DERTripHF.Crv.MayTrip.Pt.Hz" access="readwrite"/>
+    <property type="u" name="DERTripHF.Crv.MayTrip.Pt.Tms" access="readwrite"/>
+    <property type="q" name="DERTripHF.Crv.MomCess.ActPt" access="readwrite"/>
+    <property type="u" name="DERTripHF.Crv.MomCess.Pt.Hz" access="readwrite"/>
+    <property type="u" name="DERTripHF.Crv.MomCess.Pt.Tms" access="readwrite"/>
   </interface>

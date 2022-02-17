@@ -7,7 +7,7 @@
         <symbol id="SPLIT_PHASE">1</symbol>
         <symbol id="THREE_PHASE">2</symbol>
       </point>
-      <point id="St" offset="1" type="enum16" >
+      <point id="St" offset="1" type="enum16" mandatory="true" >
         <symbol id="OFF">0</symbol>
         <symbol id="ON">1</symbol>
       </point>
@@ -21,11 +21,11 @@
         <symbol id="FAULT">6</symbol>
         <symbol id="STANDBY">7</symbol>
       </point>
-      <point id="ConnSt" offset="3" type="enum16" >
+      <point id="ConnSt" offset="3" type="enum16" mandatory="true" >
         <symbol id="DISCONNECTED">0</symbol>
         <symbol id="CONNECTED">1</symbol>
       </point>
-      <point id="Alrm" offset="4" type="bitfield32" >
+      <point id="Alrm" offset="4" type="bitfield32" mandatory="true" >
         <symbol id="GROUND_FAULT">0</symbol>
         <symbol id="DC_OVER_VOLT">1</symbol>
         <symbol id="AC_DISCONNECT">2</symbol>
@@ -49,14 +49,14 @@
         <symbol id="GRID_FORMING">1</symbol>
         <symbol id="PV_CLIPPED">2</symbol>
       </point>
-      <point id="W" offset="8" type="int16" units="W" sf="W_SF" />
+      <point id="W" offset="8" type="int16" units="W" sf="W_SF" mandatory="true"  />
       <point id="VA" offset="9" type="int16" units="VA" sf="VA_SF" />
-      <point id="Var" offset="10" type="int16" units="Var" sf="Var_SF" />
+      <point id="Var" offset="10" type="int16" units="Var" sf="Var_SF" mandatory="true" />
       <point id="PF" offset="11" type="int16" sf="PF_SF" />
       <point id="A" offset="12" type="int16" units="A" sf="A_SF" />
       <point id="LLV" offset="13" type="uint16" units="V" sf="V_SF" />
       <point id="LNV" offset="14" type="uint16" units="V" sf="V_SF" />
-      <point id="Hz" offset="15" type="uint32" units="Hz" sf="Hz_SF" />
+      <point id="Hz" offset="15" type="uint32" units="Hz" sf="Hz_SF" mandatory="true" />
       <point id="TotWhInj" offset="17" type="uint64" units="Wh" sf="TotWh_SF" />
       <point id="TotWhAbs" offset="21" type="uint64" units="Wh" sf="TotWh_SF" />
       <point id="TotVarhInj" offset="25" type="uint64" units="Varh" sf="TotVarh_SF" />
@@ -73,7 +73,7 @@
       <point id="PFL1" offset="42" type="int16" sf="PF_SF" />
       <point id="AL1" offset="43" type="int16" units="A" sf="A_SF" />
       <point id="VL1L2" offset="44" type="uint16" units="V" sf="V_SF" />
-      <point id="VL1" offset="45" type="uint16" units="V" sf="V_SF" />
+      <point id="VL1" offset="45" type="uint16" units="V" sf="V_SF" mandatory="true" />
       <point id="TotWhInjL1" offset="46" type="uint64" units="Wh" sf="TotWh_SF" />
       <point id="TotWhAbsL1" offset="50" type="uint64" units="Wh" sf="TotWh_SF" />
       <point id="TotVarhInjL1" offset="54" type="uint64" units="Varh" sf="TotVarh_SF" />
@@ -84,7 +84,7 @@
       <point id="PFL2" offset="65" type="int16" sf="PF_SF" />
       <point id="AL2" offset="66" type="int16" units="A" sf="A_SF" />
       <point id="VL2L3" offset="67" type="uint16" units="V" sf="V_SF" />
-      <point id="VL2" offset="68" type="uint16" units="V" sf="V_SF" />
+      <point id="VL2" offset="68" type="uint16" units="V" sf="V_SF" mandatory="true" />
       <point id="TotWhInjL2" offset="69" type="uint64" units="Wh" sf="TotWh_SF" />
       <point id="TotWhAbsL2" offset="73" type="uint64" units="Wh" sf="TotWh_SF" />
       <point id="TotVarhInjL2" offset="77" type="uint64" units="Varh" sf="TotVarh_SF" />
@@ -95,7 +95,7 @@
       <point id="PFL3" offset="88" type="int16" sf="PF_SF" />
       <point id="AL3" offset="89" type="int16" units="A" sf="A_SF" />
       <point id="VL3L1" offset="90" type="uint16" units="V" sf="V_SF" />
-      <point id="VL3" offset="91" type="uint16" units="V" sf="V_SF" />
+      <point id="VL3" offset="91" type="uint16" units="V" sf="V_SF" mandatory="true" />
       <point id="TotWhInjL3" offset="92" type="uint64" units="Wh" sf="TotWh_SF" />
       <point id="TotWhAbsL3" offset="96" type="uint64" units="Wh" sf="TotWh_SF" />
       <point id="TotVarhInjL3" offset="100" type="uint64" units="Varh" sf="TotVarh_SF" />

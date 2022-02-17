@@ -1,53 +1,53 @@
   <interface name="org.sunspec.Model.704">
-    <property type="q" name="PFWInjEna" access="read"/>
-    <property type="q" name="PFWInjEnaRvrt" access="read"/>
-    <property type="u" name="PFWInjRvrtTms" access="read"/>
+    <property type="q" name="PFWInjEna" access="readwrite"/>
+    <property type="q" name="PFWInjEnaRvrt" access="readwrite"/>
+    <property type="u" name="PFWInjRvrtTms" access="readwrite"/>
     <property type="u" name="PFWInjRvrtRem" access="read"/>
-    <property type="q" name="PFWAbsEna" access="read"/>
-    <property type="q" name="PFWAbsEnaRvrt" access="read"/>
-    <property type="u" name="PFWAbsRvrtTms" access="read"/>
+    <property type="q" name="PFWAbsEna" access="readwrite"/>
+    <property type="q" name="PFWAbsEnaRvrt" access="readwrite"/>
+    <property type="u" name="PFWAbsRvrtTms" access="readwrite"/>
     <property type="u" name="PFWAbsRvrtRem" access="read"/>
-    <property type="q" name="WMaxLimPctEna" access="read"/>
-    <property type="q" name="WMaxLimPct" access="read"/>
-    <property type="q" name="WMaxLimPctRvrt" access="read"/>
-    <property type="q" name="WMaxLimPctEnaRvrt" access="read"/>
-    <property type="u" name="WMaxLimPctRvrtTms" access="read"/>
+    <property type="q" name="WMaxLimPctEna" access="readwrite"/>
+    <property type="q" name="WMaxLimPct" access="readwrite"/>
+    <property type="q" name="WMaxLimPctRvrt" access="readwrite"/>
+    <property type="q" name="WMaxLimPctEnaRvrt" access="readwrite"/>
+    <property type="u" name="WMaxLimPctRvrtTms" access="readwrite"/>
     <property type="u" name="WMaxLimPctRvrtRem" access="read"/>
-    <property type="q" name="WSetEna" access="read"/>
-    <property type="q" name="WSetMod" access="read"/>
-    <property type="i" name="WSet" access="read"/>
-    <property type="i" name="WSetRvrt" access="read"/>
-    <property type="n" name="WSetPct" access="read"/>
-    <property type="n" name="WSetPctRvrt" access="read"/>
-    <property type="q" name="WSetEnaRvrt" access="read"/>
-    <property type="u" name="WSetRvrtTms" access="read"/>
+    <property type="q" name="WSetEna" access="readwrite"/>
+    <property type="q" name="WSetMod" access="readwrite"/>
+    <property type="i" name="WSet" access="readwrite"/>
+    <property type="i" name="WSetRvrt" access="readwrite"/>
+    <property type="n" name="WSetPct" access="readwrite"/>
+    <property type="n" name="WSetPctRvrt" access="readwrite"/>
+    <property type="q" name="WSetEnaRvrt" access="readwrite"/>
+    <property type="u" name="WSetRvrtTms" access="readwrite"/>
     <property type="u" name="WSetRvrtRem" access="read"/>
-    <property type="q" name="VarSetEna" access="read"/>
-    <property type="q" name="VarSetMod" access="read"/>
-    <property type="q" name="VarSetPri" access="read"/>
-    <property type="i" name="VarSet" access="read"/>
-    <property type="i" name="VarSetRvrt" access="read"/>
-    <property type="n" name="VarSetPct" access="read"/>
-    <property type="n" name="VarSetPctRvrt" access="read"/>
-    <property type="q" name="VarSetEnaRvrt" access="read"/>
-    <property type="u" name="VarSetRvrtTms" access="read"/>
+    <property type="q" name="VarSetEna" access="readwrite"/>
+    <property type="q" name="VarSetMod" access="readwrite"/>
+    <property type="q" name="VarSetPri" access="readwrite"/>
+    <property type="i" name="VarSet" access="readwrite"/>
+    <property type="i" name="VarSetRvrt" access="readwrite"/>
+    <property type="n" name="VarSetPct" access="readwrite"/>
+    <property type="n" name="VarSetPctRvrt" access="readwrite"/>
+    <property type="q" name="VarSetEnaRvrt" access="readwrite"/>
+    <property type="u" name="VarSetRvrtTms" access="readwrite"/>
     <property type="u" name="VarSetRvrtRem" access="read"/>
-    <property type="q" name="WRmp" access="read"/>
-    <property type="q" name="WRmpRef" access="read"/>
-    <property type="q" name="VarRmp" access="read"/>
-    <property type="q" name="AntiIslEna" access="read"/>
+    <property type="q" name="WRmp" access="readwrite"/>
+    <property type="q" name="WRmpRef" access="readwrite"/>
+    <property type="q" name="VarRmp" access="readwrite"/>
+    <property type="q" name="AntiIslEna" access="readwrite"/>
     <property type="n" name="PF_SF" access="read"/>
     <property type="n" name="WMaxLimPct_SF" access="read"/>
     <property type="n" name="WSet_SF" access="read"/>
     <property type="n" name="WSetPct_SF" access="read"/>
     <property type="n" name="VarSet_SF" access="read"/>
     <property type="n" name="VarSetPct_SF" access="read"/>
-    <property type="q" name="DERCtlAC.PFWInj.PF" access="read"/>
-    <property type="q" name="DERCtlAC.PFWInj.Ext" access="read"/>
-    <property type="q" name="DERCtlAC.PFWInjRvrt.PF" access="read"/>
-    <property type="q" name="DERCtlAC.PFWInjRvrt.Ext" access="read"/>
-    <property type="q" name="DERCtlAC.PFWAbs.PF" access="read"/>
-    <property type="q" name="DERCtlAC.PFWAbs.Ext" access="read"/>
-    <property type="q" name="DERCtlAC.PFWAbsRvrt.PF" access="read"/>
-    <property type="q" name="DERCtlAC.PFWAbsRvrt.Ext" access="read"/>
+    <property type="q" name="DERCtlAC.PFWInj.PF" access="readwrite"/>
+    <property type="q" name="DERCtlAC.PFWInj.Ext" access="readwrite"/>
+    <property type="q" name="DERCtlAC.PFWInjRvrt.PF" access="readwrite"/>
+    <property type="q" name="DERCtlAC.PFWInjRvrt.Ext" access="readwrite"/>
+    <property type="q" name="DERCtlAC.PFWAbs.PF" access="readwrite"/>
+    <property type="q" name="DERCtlAC.PFWAbs.Ext" access="readwrite"/>
+    <property type="q" name="DERCtlAC.PFWAbsRvrt.PF" access="readwrite"/>
+    <property type="q" name="DERCtlAC.PFWAbsRvrt.Ext" access="readwrite"/>
   </interface>

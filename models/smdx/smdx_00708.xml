@@ -2,11 +2,11 @@
   <!-- 708: DER Trip HV -->
   <model id="708" len="20" name="DERTripHV" >
     <block len="20">
-   	  <point id="Ena" offset="0" type="enum16" mandatory="true" >
+   	  <point id="Ena" offset="0" type="enum16" access="rw" mandatory="true" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="AdptCrvReq" offset="1" type="uint16" mandatory="true" />
+      <point id="AdptCrvReq" offset="1" type="uint16" access="rw" mandatory="true" />
       <point id="AdptCrvRslt" offset="2" type="enum16" mandatory="true" >
         <symbol id="IN_PROGRESS">0</symbol>
         <symbol id="COMPLETED">1</symbol>
@@ -20,15 +20,15 @@
         <symbol id="RW">0</symbol>
         <symbol id="R">1</symbol>
       </point>
-      <point id="DERTripHV.Crv.MustTrip.ActPt" offset="8" type="uint16" mandatory="true" />
-      <point id="DERTripHV.Crv.MustTrip.Pt.V" offset="9" type="uint16" units="VRefPct" sf="V_SF" mandatory="true" /> 
-      <point id="DERTripLV.Crv.MustTrip.Pt.Tms" offset="10" type="uint32" units="Secs" sf="Tms_SF" mandatory="true" />  
-      <point id="DERTripHV.Crv.MayTrip.ActPt" offset="12" type="uint16" mandatory="true" />
-      <point id="DERTripHV.Crv.MayTrip.Pt.V" offset="13" type="uint16" units="VRefPct" sf="V_SF" mandatory="true" /> 
-      <point id="DERTripHV.Crv.MayTrip.Pt.Tms" offset="14" type="uint32" units="Secs" sf="Tms_SF" mandatory="true" />
-      <point id="DERTripHV.Crv.MomCess.ActPt" offset="16" type="uint16" mandatory="true" />
-	  <point id="DERTripHV.Crv.MomCess.Pt.V" offset="17" type="uint16" units="VRefPct" sf="V_SF" mandatory="true" /> 
-      <point id="DERTripHV.Crv.MomCess.Pt.Tms" offset="18" type="uint32" units="Secs" sf="Tms_SF" mandatory="true" />
+      <point id="DERTripHV.Crv.MustTrip.ActPt" offset="8" type="uint16" access="rw" mandatory="true" />
+      <point id="DERTripHV.Crv.MustTrip.Pt.V" offset="9" type="uint16" access="rw" units="VRefPct" sf="V_SF" mandatory="true" /> 
+      <point id="DERTripLV.Crv.MustTrip.Pt.Tms" offset="10" type="uint32" access="rw" units="Secs" sf="Tms_SF" mandatory="true" />  
+      <point id="DERTripHV.Crv.MayTrip.ActPt" offset="12" type="uint16" access="rw" />
+      <point id="DERTripHV.Crv.MayTrip.Pt.V" offset="13" type="uint16" access="rw" units="VRefPct" sf="V_SF" /> 
+      <point id="DERTripHV.Crv.MayTrip.Pt.Tms" offset="14" type="uint32" access="rw" units="Secs" sf="Tms_SF" />
+      <point id="DERTripHV.Crv.MomCess.ActPt" offset="16" type="uint16" access="rw" mandatory="true" />
+	  <point id="DERTripHV.Crv.MomCess.Pt.V" offset="17" type="uint16" access="rw" units="VRefPct" sf="V_SF" mandatory="true" /> 
+      <point id="DERTripHV.Crv.MomCess.Pt.Tms" offset="18" type="uint32" access="rw" units="Secs" sf="Tms_SF" mandatory="true" />
     </block>
   </model>
   <strings id="708" locale="en">

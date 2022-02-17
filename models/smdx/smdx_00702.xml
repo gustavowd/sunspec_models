@@ -2,35 +2,35 @@
   <!-- 702: DER Capacity -->
   <model id="702" len="50" name="DERCapacity">
     <block len="50">
-      <point id="WMaxRtg" offset="0" type="uint16" units="W" sf="W_SF" />
-      <point id="WOvrExtRtg" offset="1" type="uint16" units="W" sf="W_SF" />
-      <point id="WOvrExtRtgPF" offset="2" type="uint16" sf="PF_SF" />
-      <point id="WUndExtRtg" offset="3" type="uint16" units="W" sf="W_SF" />
-      <point id="WUndExtRtgPF" offset="4" type="uint16" sf="PF_SF" />
-      <point id="VAMaxRtg" offset="5" type="uint16" units="VA" sf="VA_SF" />
-      <point id="VarMaxInjRtg" offset="6" type="uint16" units="VAr" sf="Var_SF" />
-      <point id="VarMaxAbsRtg" offset="7" type="uint16" units="VAr" sf="Var_SF" />
-      <point id="WChaRteMaxRtg" offset="8" type="uint16" units="W" sf="W_SF" />
+      <point id="WMaxRtg" offset="0" type="uint16" units="W" sf="W_SF" mandatory="true" />
+      <point id="WOvrExtRtg" offset="1" type="uint16" units="W" sf="W_SF" mandatory="true" />
+      <point id="WOvrExtRtgPF" offset="2" type="uint16" sf="PF_SF" mandatory="true" />
+      <point id="WUndExtRtg" offset="3" type="uint16" units="W" sf="W_SF" mandatory="true" />
+      <point id="WUndExtRtgPF" offset="4" type="uint16" sf="PF_SF" mandatory="true" />
+      <point id="VAMaxRtg" offset="5" type="uint16" units="VA" sf="VA_SF" mandatory="true" />
+      <point id="VarMaxInjRtg" offset="6" type="uint16" units="VAr" sf="Var_SF" mandatory="true" />
+      <point id="VarMaxAbsRtg" offset="7" type="uint16" units="VAr" sf="Var_SF" mandatory="true" />
+      <point id="WChaRteMaxRtg" offset="8" type="uint16" units="W" sf="W_SF" mandatory="true" />
       <point id="WDisChaRteMaxRtg" offset="9" type="uint16" units="W" sf="W_SF" />
-      <point id="VAChaRteMaxRtg" offset="10" type="uint16" units="VA" sf="VA_SF" />
-      <point id="VADisChaRteMaxRtg" offset="11" type="uint16" units="VA" sf="VA_SF" />
-      <point id="VNomRtg" offset="12" type="uint16" units="V" sf="V_SF" />
-      <point id="VMaxRtg" offset="13" type="uint16" units="V" sf="V_SF" />
-      <point id="VMinRtg" offset="14" type="uint16" units="V" sf="V_SF" />
+      <point id="VAChaRteMaxRtg" offset="10" type="uint16" units="VA" sf="VA_SF" mandatory="true" />
+      <point id="VADisChaRteMaxRtg" offset="11" type="uint16" units="VA" sf="VA_SF" mandatory="true" />
+      <point id="VNomRtg" offset="12" type="uint16" units="V" sf="V_SF" mandatory="true" />
+      <point id="VMaxRtg" offset="13" type="uint16" units="V" sf="V_SF" mandatory="true" />
+      <point id="VMinRtg" offset="14" type="uint16" units="V" sf="V_SF" mandatory="true" />
       <point id="AMaxRtg" offset="15" type="uint16" units="A" sf="A_SF" />
       <point id="PFOvrExtRtg" offset="16" type="uint16" sf="PF_SF" />
       <point id="PFUndExtRtg" offset="17" type="uint16" sf="PF_SF" />
-      <point id="ReactSusceptRtg" offset="18" type="uint16" units="S" sf="S_SF" />
-      <point id="NorOpCatRtg" offset="19" type="enum16" >
+      <point id="ReactSusceptRtg" offset="18" type="uint16" units="S" sf="S_SF" mandatory="true" />
+      <point id="NorOpCatRtg" offset="19" type="enum16" mandatory="true" >
         <symbol id="CAT_A">0</symbol>
         <symbol id="CAT_B">1</symbol>
       </point>
-      <point id="AbnOpCatRtg" offset="20" type="enum16" >
+      <point id="AbnOpCatRtg" offset="20" type="enum16" mandatory="true" >
         <symbol id="CAT_1">0</symbol>
         <symbol id="CAT_2">1</symbol>
         <symbol id="CAT_3">2</symbol>
       </point>
-      <point id="CtrlModes" offset="21" type="bitfield32" >
+      <point id="CtrlModes" offset="21" type="bitfield32" mandatory="true" >
         <symbol id="MAX_W">0</symbol>
         <symbol id="FIXED_W">1</symbol>
         <symbol id="FIXED_VAR">2</symbol>
@@ -52,37 +52,37 @@
         <symbol id="BLACK_START_CAPABLE">2</symbol>
         <symbol id="ISOCH_CAPABLE">3</symbol>
       </point>
-      <point id="WMax" offset="24" type="uint16" units="W" sf="W_SF" />
-      <point id="WMaxOvrExt" offset="25" type="uint16" units="W" sf="W_SF" />
-      <point id="WOvrExtPF" offset="26" type="uint16" sf="PF_SF" />
-      <point id="WMaxUndExt" offset="27" type="uint16" units="W" sf="W_SF" />
-      <point id="WUndExtPF" offset="28" type="uint16" sf="PF_SF" />
-      <point id="VAMax" offset="29" type="uint16" units="VA" sf="VA_SF" />
-      <point id="VarMaxInj" offset="30" type="uint16" units="Var" sf="Var_SF" />
-      <point id="VarMaxAbs" offset="31" type="uint16" units="Var" sf="Var_SF" />
-      <point id="WChaRteMax" offset="32" type="uint16" units="W" sf="W_SF" />
-      <point id="WDisChaRteMax" offset="33" type="uint16" units="W" sf="W_SF" />
-      <point id="VAChaRteMax" offset="34" type="uint16" units="VA" sf="VA_SF" />
-      <point id="VADisChaRteMax" offset="35" type="uint16" units="VA" sf="VA_SF" />
-      <point id="VNom" offset="36" type="uint16" units="V" sf="V_SF" />
-      <point id="VMax" offset="37" type="uint16" units="V" sf="V_SF" />
-      <point id="VMin" offset="38" type="uint16" units="V" sf="V_SF" />
-      <point id="AMax" offset="39" type="uint16" units="A" sf="A_SF" />
-      <point id="PFOvrExt" offset="40" type="uint16" sf="PF_SF" />
-      <point id="PFUndExt" offset="41" type="uint16" sf="PF_SF" />
-      <point id="IntIslandCat" offset="42" type="bitfield16" >
+      <point id="WMax" offset="24" type="uint16" access="rw" units="W" sf="W_SF" />
+      <point id="WMaxOvrExt" offset="25" type="uint16" access="rw" units="W" sf="W_SF" />
+      <point id="WOvrExtPF" offset="26" type="uint16" access="rw" sf="PF_SF" />
+      <point id="WMaxUndExt" offset="27" type="uint16" access="rw" units="W" sf="W_SF" />
+      <point id="WUndExtPF" offset="28" type="uint16" access="rw" sf="PF_SF" />
+      <point id="VAMax" offset="29" type="uint16" access="rw" units="VA" sf="VA_SF" />
+      <point id="VarMaxInj" offset="30" type="uint16" access="rw" units="Var" sf="Var_SF" />
+      <point id="VarMaxAbs" offset="31" type="uint16" access="rw" units="Var" sf="Var_SF" />
+      <point id="WChaRteMax" offset="32" type="uint16" access="rw" units="W" sf="W_SF" />
+      <point id="WDisChaRteMax" offset="33" type="uint16" access="rw" units="W" sf="W_SF" />
+      <point id="VAChaRteMax" offset="34" type="uint16" access="rw" units="VA" sf="VA_SF" />
+      <point id="VADisChaRteMax" offset="35" type="uint16" access="rw" units="VA" sf="VA_SF" />
+      <point id="VNom" offset="36" type="uint16" access="rw" units="V" sf="V_SF" />
+      <point id="VMax" offset="37" type="uint16" access="rw" units="V" sf="V_SF" />
+      <point id="VMin" offset="38" type="uint16" access="rw" units="V" sf="V_SF" />
+      <point id="AMax" offset="39" type="uint16" access="rw" units="A" sf="A_SF" />
+      <point id="PFOvrExt" offset="40" type="uint16" access="rw" sf="PF_SF" />
+      <point id="PFUndExt" offset="41" type="uint16" access="rw" sf="PF_SF" />
+      <point id="IntIslandCat" offset="42" type="bitfield16" access="rw" >
         <symbol id="UNCATEGORIZED">0</symbol>
         <symbol id="INT_ISL_CAPABLE">1</symbol>
         <symbol id="BLACK_START_CAPABLE">2</symbol>
         <symbol id="ISOCH_CAPABLE">3</symbol>
       </point>
-      <point id="W_SF" offset="43" access="r" type="sunssf" len="1" mandatory="false"  />
-      <point id="PF_SF" offset="44" access="r" type="sunssf" len="1" mandatory="false"  />
-      <point id="VA_SF" offset="45" access="r" type="sunssf" len="1" mandatory="false"  />
-      <point id="Var_SF" offset="46" access="r" type="sunssf" len="1" mandatory="false"  />
-      <point id="V_SF" offset="47" access="r" type="sunssf" len="1" mandatory="false"  />
-      <point id="A_SF" offset="48" access="r" type="sunssf" len="1" mandatory="false"  />
-      <point id="S_SF" offset="49" access="r" type="sunssf" len="1" mandatory="false"  />
+      <point id="W_SF" offset="43" access="r" type="sunssf" len="1" mandatory="true" />
+      <point id="PF_SF" offset="44" access="r" type="sunssf" len="1" mandatory="false" />
+      <point id="VA_SF" offset="45" access="r" type="sunssf" len="1" mandatory="true" />
+      <point id="Var_SF" offset="46" access="r" type="sunssf" len="1" mandatory="true" />
+      <point id="V_SF" offset="47" access="r" type="sunssf" len="1" mandatory="true" />
+      <point id="A_SF" offset="48" access="r" type="sunssf" len="1" mandatory="false" />
+      <point id="S_SF" offset="49" access="r" type="sunssf" len="1" mandatory="true" />
     </block>
   </model>
   <strings id="702" locale="en">

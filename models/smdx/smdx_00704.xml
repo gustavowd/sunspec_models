@@ -2,116 +2,116 @@
   <!-- 704: DER AC Controls -->
   <model id="704" len="65" name="DERCtlAC">
     <block len="65">
-   	  <point id="PFWInjEna" offset="0" type="enum16" >
+   	  <point id="PFWInjEna" offset="0" type="enum16" access="rw" mandatory="true" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="PFWInjEnaRvrt" offset="1" type="enum16" >
+      <point id="PFWInjEnaRvrt" offset="1" type="enum16" access="rw" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="PFWInjRvrtTms" offset="2" type="uint32" units="Secs" />
+      <point id="PFWInjRvrtTms" offset="2" type="uint32" access="rw" units="Secs" />
       <point id="PFWInjRvrtRem" offset="4" type="uint32" units="Secs" />
-      <point id="PFWAbsEna" offset="6" type="enum16" >
+      <point id="PFWAbsEna" offset="6" type="enum16" access="rw" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="PFWAbsEnaRvrt" offset="7" type="enum16" >
+      <point id="PFWAbsEnaRvrt" offset="7" type="enum16" access="rw" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="PFWAbsRvrtTms" offset="8" type="uint32" units="Secs" />
+      <point id="PFWAbsRvrtTms" offset="8" type="uint32" access="rw" units="Secs" />
       <point id="PFWAbsRvrtRem" offset="10" type="uint32" units="Secs" />
-      <point id="WMaxLimPctEna" offset="12" type="enum16" >
+      <point id="WMaxLimPctEna" offset="12" type="enum16" access="rw" mandatory="true" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="WMaxLimPct" offset="13" type="uint16" units="Pct" sf="WMaxLimPct_SF" />
-      <point id="WMaxLimPctRvrt" offset="14" type="uint16" units="Pct" sf="WMaxLimPct_SF" />
-      <point id="WMaxLimPctEnaRvrt" offset="15" type="enum16" >
+      <point id="WMaxLimPct" offset="13" type="uint16" access="rw" units="Pct" sf="WMaxLimPct_SF" mandatory="true" />
+      <point id="WMaxLimPctRvrt" offset="14" type="uint16" access="rw" units="Pct" sf="WMaxLimPct_SF" />
+      <point id="WMaxLimPctEnaRvrt" offset="15" type="enum16" access="rw" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="WMaxLimPctRvrtTms" offset="16" type="uint32" units="Secs" />
+      <point id="WMaxLimPctRvrtTms" offset="16" type="uint32" access="rw" units="Secs" />
       <point id="WMaxLimPctRvrtRem" offset="18" type="uint32" units="Secs" />
-      <point id="WSetEna" offset="20" type="enum16" >
+      <point id="WSetEna" offset="20" type="enum16" access="rw" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="WSetMod" offset="21" type="enum16" >
+      <point id="WSetMod" offset="21" type="enum16" access="rw" >
         <symbol id="W_MAX_PCT">0</symbol>
         <symbol id="WATTS">1</symbol>
       </point>
-      <point id="WSet" offset="22" type="int32" units="W" sf="WSet_SF" />
-      <point id="WSetRvrt" offset="24" type="int32" units="W" sf="WSet_SF" />
-      <point id="WSetPct" offset="26" type="int16" units="Pct" sf="WSetPct_SF" />
-      <point id="WSetPctRvrt" offset="27" type="int16" units="Pct" sf="WSetPct_SF" />
-      <point id="WSetEnaRvrt" offset="28" type="enum16" >
+      <point id="WSet" offset="22" type="int32" access="rw" units="W" sf="WSet_SF" />
+      <point id="WSetRvrt" offset="24" type="int32" access="rw" units="W" sf="WSet_SF" />
+      <point id="WSetPct" offset="26" type="int16" access="rw" units="Pct" sf="WSetPct_SF" />
+      <point id="WSetPctRvrt" offset="27" type="int16" access="rw" units="Pct" sf="WSetPct_SF" />
+      <point id="WSetEnaRvrt" offset="28" type="enum16" access="rw" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="WSetRvrtTms" offset="29" type="uint32" units="Secs" />
+      <point id="WSetRvrtTms" offset="29" type="uint32" access="rw" units="Secs" />
       <point id="WSetRvrtRem" offset="31" type="uint32" units="Secs" />
-      <point id="VarSetEna" offset="33" type="enum16" >
+      <point id="VarSetEna" offset="33" type="enum16" access="rw" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="VarSetMod" offset="34" type="enum16" >
+      <point id="VarSetMod" offset="34" type="enum16" access="rw" >
         <symbol id="W_MAX_PCT">0</symbol>
         <symbol id="VAR_MAX_PCT">1</symbol>
         <symbol id="VAR_AVAIL_PCT">2</symbol>
         <symbol id="VARS">3</symbol>
       </point>
-      <point id="VarSetPri" offset="35" type="enum16" >
+      <point id="VarSetPri" offset="35" type="enum16" access="rw" >
         <symbol id="ACTIVE">0</symbol>
         <symbol id="REACTIVE">1</symbol>
         <symbol id="IEEE_1547">2</symbol>
         <symbol id="PF">3</symbol>
         <symbol id="VENDOR">4</symbol>
       </point>
-      <point id="VarSet" offset="36" type="int32" units="Var" sf="VarSet_SF" />
-      <point id="VarSetRvrt" offset="38" type="int32" units="Var" sf="VarSet_SF" />
-      <point id="VarSetPct" offset="40" type="int16" units="Pct" sf="VarSetPct_SF" />
-      <point id="VarSetPctRvrt" offset="41" type="int16" units="Pct" sf="VarSetPct_SF" />
-      <point id="VarSetEnaRvrt" offset="42" type="enum16" >
+      <point id="VarSet" offset="36" type="int32" access="rw" units="Var" sf="VarSet_SF" />
+      <point id="VarSetRvrt" offset="38" type="int32" access="rw" units="Var" sf="VarSet_SF" />
+      <point id="VarSetPct" offset="40" type="int16" access="rw" units="Pct" sf="VarSetPct_SF" />
+      <point id="VarSetPctRvrt" offset="41" type="int16" access="rw" units="Pct" sf="VarSetPct_SF" />
+      <point id="VarSetEnaRvrt" offset="42" type="enum16" access="rw" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="VarSetRvrtTms" offset="43" type="uint32" units="Secs" />
+      <point id="VarSetRvrtTms" offset="43" type="uint32" access="rw" units="Secs" />
       <point id="VarSetRvrtRem" offset="45" type="uint32" units="Secs" />
-      <point id="WRmp" offset="47" type="uint16" units="%Max/Sec" />
-      <point id="WRmpRef" offset="48" type="enum16" >
+      <point id="WRmp" offset="47" type="uint16" access="rw" units="%Max/Sec" />
+      <point id="WRmpRef" offset="48" type="enum16" access="rw" >
         <symbol id="A_MAX">0</symbol>
         <symbol id="V_MAX">1</symbol>
       </point>
-      <point id="VarRmp" offset="49" type="uint16" units="%Max/Sec" />
-      <point id="AntiIslEna" offset="50" type="enum16" >
+      <point id="VarRmp" offset="49" type="uint16" access="rw" units="%Max/Sec" />
+      <point id="AntiIslEna" offset="50" type="enum16" access="rw" >
         <symbol id="DISABLED">0</symbol>
         <symbol id="ENABLED">1</symbol>
       </point>
-      <point id="PF_SF" offset="51" type="sunssf" />
-      <point id="WMaxLimPct_SF" offset="52" type="sunssf" />
+      <point id="PF_SF" offset="51" type="sunssf" mandatory="true" />
+      <point id="WMaxLimPct_SF" offset="52" type="sunssf" mandatory="true" />
       <point id="WSet_SF" offset="53" type="sunssf" />
       <point id="WSetPct_SF" offset="54" type="sunssf" />
       <point id="VarSet_SF" offset="55" type="sunssf" />
       <point id="VarSetPct_SF" offset="56" type="sunssf" />
-      <point id="DERCtlAC.PFWInj.PF" offset="57" type="uint16" sf="PF_SF" />
-      <point id="DERCtlAC.PFWInj.Ext" offset="58" type="enum16" >
+      <point id="DERCtlAC.PFWInj.PF" offset="57" type="uint16" access="rw" sf="PF_SF" mandatory="true" />
+      <point id="DERCtlAC.PFWInj.Ext" offset="58" type="enum16" access="rw" mandatory="true" >
         <symbol id="OVER_EXCITED">0</symbol>
         <symbol id="UNDER_EXCITED">1</symbol>
       </point>
-      <point id="DERCtlAC.PFWInjRvrt.PF" offset="59" type="uint16" sf="PF_SF" />
-      <point id="DERCtlAC.PFWInjRvrt.Ext" offset="60" type="enum16" >
+      <point id="DERCtlAC.PFWInjRvrt.PF" offset="59" type="uint16" access="rw" sf="PF_SF" />
+      <point id="DERCtlAC.PFWInjRvrt.Ext" offset="60" type="enum16" access="rw" >
         <symbol id="OVER_EXCITED">0</symbol>
         <symbol id="UNDER_EXCITED">1</symbol>
       </point>
-      <point id="DERCtlAC.PFWAbs.PF" offset="61" type="uint16" sf="PF_SF" />
-      <point id="DERCtlAC.PFWAbs.Ext" offset="62" type="enum16" >
+      <point id="DERCtlAC.PFWAbs.PF" offset="61" type="uint16" access="rw" sf="PF_SF" />
+      <point id="DERCtlAC.PFWAbs.Ext" offset="62" type="enum16" access="rw" >
         <symbol id="OVER_EXCITED">0</symbol>
         <symbol id="UNDER_EXCITED">1</symbol>
       </point>
-      <point id="DERCtlAC.PFWAbsRvrt.PF" offset="63" type="uint16" sf="PF_SF" />
-      <point id="DERCtlAC.PFWAbsRvrt.Ext" offset="64" type="enum16" >
+      <point id="DERCtlAC.PFWAbsRvrt.PF" offset="63" type="uint16" access="rw" sf="PF_SF" />
+      <point id="DERCtlAC.PFWAbsRvrt.Ext" offset="64" type="enum16" access="rw" >
         <symbol id="OVER_EXCITED">0</symbol>
         <symbol id="UNDER_EXCITED">1</symbol>
       </point>

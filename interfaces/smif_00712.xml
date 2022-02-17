@@ -1,18 +1,18 @@
   <interface name="org.sunspec.Model.712">
-    <property type="q" name="Ena" access="read"/>
-    <property type="q" name="AdptCrvReq" access="read"/>
+    <property type="q" name="Ena" access="readwrite"/>
+    <property type="q" name="AdptCrvReq" access="readwrite"/>
     <property type="q" name="AdptCrvRslt" access="read"/>
     <property type="q" name="NPt" access="read"/>
     <property type="q" name="NCrv" access="read"/>
-    <property type="u" name="RvrtTms" access="read"/>
+    <property type="u" name="RvrtTms" access="readwrite"/>
     <property type="u" name="RvrtRem" access="read"/>
-    <property type="q" name="RvrtCrv" access="read"/>
+    <property type="q" name="RvrtCrv" access="readwrite"/>
     <property type="n" name="W_SF" access="read"/>
     <property type="n" name="DeptRef_SF" access="read"/>
-    <property type="q" name="DERWattVar.Crv.ActPt" access="read"/>
-    <property type="q" name="DERWattVar.Crv.DeptRef" access="read"/>
-    <property type="q" name="DERWattVar.Crv.Pri" access="read"/>
+    <property type="q" name="DERWattVar.Crv.ActPt" access="readwrite"/>
+    <property type="q" name="DERWattVar.Crv.DeptRef" access="readwrite"/>
+    <property type="q" name="DERWattVar.Crv.Pri" access="readwrite"/>
     <property type="q" name="DERWattVar.Crv.ReadOnly" access="read"/>
-    <property type="n" name="DERWattVar.Crv.Pt.W" access="read"/>
-    <property type="n" name="DERWattVar.Crv.Pt.Var" access="read"/>
+    <property type="n" name="DERWattVar.Crv.Pt.W" access="readwrite"/>
+    <property type="n" name="DERWattVar.Crv.Pt.Var" access="readwrite"/>
   </interface>
